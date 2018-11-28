@@ -1,0 +1,376 @@
+/*FONTS */
+@font-face {
+  font-family: 'Antonio-Regular';
+  src: url('Antonio-Regular.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Marlboro';
+  src: url('Marlboro.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roadgeek2005Series1B';
+  src: url('Roadgeek2005Series1B.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Steagisler';
+  src: url('Steagisler.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+        /* Structure */
+#wrapper {
+max-width: 1280px;
+margin: auto;
+}
+
+body {
+    background: #DCD1C2;
+    
+        }
+#left {
+    position: fixed;
+    float: left;
+    width:300px;
+    height: 100%;
+    margin-top: 1em;
+    margin-right: 1%;
+    background: white;
+    
+}
+#right {
+    float:right;
+    width: 960px;
+    height: 100%;
+    margin-top: 1em;
+    background: white;
+}
+.text {  font-family: 'Steagisler';
+        font-size: 15px;
+        letter-spacing: 2px;
+        line-height: 20px;
+        text-align: justify;}
+        
+        /*LEFT SIDE NAVIGATION*/
+#logo{
+margin-top:30%;
+margin-left: 16%;
+width: 200px;
+height:100px;
+    }
+.leftnav {
+    font-family: 'Roadgeek2005Series1B';
+    letter-spacing: 5px;
+}
+.leftnav li {
+    margin-left: -15%;
+    text-align: center;
+    font-size: 1.3em;
+    list-style-type: none;
+    margin-bottom: 50px;
+   
+}
+.leftnav a { 
+        color: black;
+        text-decoration: none;
+    }  
+        
+.leftnav a:hover {
+ text-align: center;
+    color: teal;
+  
+}
+
+        /*HEADER AND FOOTER*/
+        .heading { 
+    text-align: center;
+    font-size: 50px;  
+    font-family: 'Antonio-Regular';
+    color: #707171;
+    letter-spacing: 5px;
+        } 
+
+        .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width:90%;
+		height: 150px;
+    color: White;
+    text-align: center;
+    font-size: 17px;
+    background-color: #DCD1C2;
+    font-family: 'Roadgeek2005Series1B';
+    margin-left: 5%;
+    margin-bottom: -1.5%;
+        }
+        .header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width:  100%;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+    background-color: #DCD1C2;
+    z-index: 10;
+}
+        .sub { 
+        font-size: 25px;
+        text-align: center;
+        font-family: 'Marlboro';
+        }
+        span.black { 
+            font-family: 'Roadgeek2005Series1B';
+            color: black;
+            font-size: 20px;          
+}
+
+        
+        .subheading { 
+    color: #BBBCBE;
+    font-size: 30px;
+    font-family: 'Roadgeek2005Series1B';
+    letter-spacing: 2px;}
+        
+        /*RIGHT SIDE NAV*/
+       
+        /* Slideshow*/       
+        * {box-sizing:border-box}
+        .mySlides {display:none}
+
+        .slideshow-container {
+    margin-top: -30%;
+    max-width: 90%;
+    position: relative;
+    margin: auto;
+        }
+        /* Centered text */
+        .centered {
+    text-align: center;
+    position: absolute;
+    margin-top: -32%;
+    margin-left: 20%;
+    height: 30%;
+    border: 5px solid black;
+    border-style: outset;
+    background: white; opacity: .8;
+    border: 5px solid black;
+    font-size: 50px;
+    font-family: 'Antonio-Regular';
+    line-height: 25px;
+        }
+         /*ABOUT SECTION*/
+        #history,#mission {margin:3%;}
+        #one { width:280px;
+        float: left;
+        margin-right: 3%;}
+
+        #mission {
+            text-align: right;
+            float: right;}
+
+        #two {  width:400px;
+        height: 300px;
+        float: right;
+        margin-left: 3%;
+        margin-top: -6%;}
+        /*Menu Nav*/
+.menunav { 
+            margin-top: -3%;
+            text-decoration: none;
+           text-align: center;
+           font-family: 'Marlboro';
+           font-size: 20px;
+            }
+.menunav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+.menunav li {
+    display: inline;
+    letter-spacing: 2px;
+   
+}
+.menunav a { text-decoration:none;
+color: #BBBCBE;
+}
+.menunav a:hover{ 
+    cursor: progress;
+}
+#Menu{ margin-top: 100px;}
+/*footer*/
+#loc { width: 50px;
+       float: left; 
+       margin: 2%; 
+}
+.foot { 
+    float: left;
+    width: 110px;
+    margin-bottom: 2%;
+    padding: 1%;
+}
+#clock {float: left;
+    width: 100px;
+margin-left: 288px;}
+
+#icon{ float: left; 
+    margin-top: -13px;
+     margin-left: 90px;
+    }
+.icon { float: left; 
+   
+        height: 60px; 
+}
+/*appetizers*/
+
+.res{
+    font-size: 20px;
+    font-family: 'Roadgeek2005Series1B';
+     text-align: center;
+    color: #BBBCBE;
+    margin-top: -30px;
+    letter-spacing: 3px;
+}
+
+/*FORM*/
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 4;
+    top: 0;
+    width: 55%; /* Full width */
+    height: 84.7%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(255,255,255,0.7); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color:#E2E8B6; opacity: .8;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+#myBtn { 
+    letter-spacing: 2px;
+    font-family: 'Roadgeek2005Series1B';
+background-color: #DCD1C2;
+font-size:30px;
+    color: white;
+margin-left: 363px;
+width: 200px;
+    height:60px; 
+background: -moz-linear-gradient(
+		top,
+		#dcd1c2 0%,
+		#dcd1c2);
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#dcd1c2),
+		to(#dcd1c2));
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	border-radius: 30px;
+	border: 1px solid #ffffff;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.7);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.7);
+	box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.7);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.4),
+		0px 1px 0px rgba(255,255,255,0.3);}
+
+
+
+    /*Reservationformconntent*/
+    .reservationformheader{ 
+        margin-top: -1px;
+        font-family: 'Steagisler';
+     font-size: 30px;
+     font-family: 'Steagisler';
+     color: white;
+    letter-spacing: 7px;}
+form { font-family: 'Steagisler'; 
+letter-spacing: 2px;
+}
+form div { padding-bottom: 15px;}
+.formcontent { 
+font-family: 'Steagisler';
+font-size: 15px;}
+.formheader { font-size: 20px; }
+.submitbutton { 
+    font-family: 'Roadgeek2005Series1B';
+margin-left: 43%;
+    cursor:progress;
+	font-size: 20px;
+	color: #ffffff;
+	padding: 10px 20px;
+	background: -moz-linear-gradient(
+		top,
+		#dcd1c2 0%,
+		#dcd1c2);
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#dcd1c2),
+		to(#dcd1c2));
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	border-radius: 30px;
+	border: 1px solid #ffffff;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.7);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.7);
+	box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.7);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.4),
+		0px 1px 0px rgba(255,255,255,0.3);
+}
+    
+
+.formpic { float: right;
+width: 200px;
+    margin-top: -9.7%;
+margin-right: -8%;}
+iframe { border:none;}
+.end { text-align: center;}
+        

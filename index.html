@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+<head>   
+    <title> &#9832; Twenty Pho Seven </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" type="text/css" href="twentyphoseven.css">
+</head>
+     <body >
+      <div class="header"> </div>
+   
+    <div id="wrapper">
+        <div id="left"> 
+            <img src="imgs/logofinal.png" alt="logo" id="logo" >
+    <nav class="leftnav">
+         <ul>
+         <li> <br> <br></li>
+        <li><a href="#right">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Menu">Menu</a></li>
+        <li><a href="#Reserve">Reservation</a></li>
+         </ul>
+    </nav>
+        </div>
+             
+<div id="right">
+    <br><br><br><br><br><br><br> <br>
+    <div id="Home" class="container">
+<div class="slideshow-container">
+    <div class="mySlides fade">
+  <img src="imgs/slide1.jpg" alt="slide" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+  <img src="imgs/slide2.jpg" alt="slide" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+        <img src="imgs/slide3.jpg" alt="slide" style="width:100%"> </div>
+     <div class="mySlides fade">
+         <img src="imgs/slide4.jpg" alt="slide" style="width:100%"></div>
+     <div class="mySlides fade">
+        <img src="imgs/slide5.jpg" alt="slide" style="width:100%">
+    </div>
+    <div class="centered"  >
+        <p>  &emsp;   Twenty Pho Seven &emsp;  <br><span class="sub"> &emsp;Modern Vietnamese Cusine</span></p>
+    </div>
+</div>
+    </div>
+    <br><br><br><br> <p id="About"> </p> <br><br>
+    <p class="heading"> ABOUT</p>
+        <div id="history" style="margin-top: -4%;">
+            <h2 class="subheading"> HISTORY </h2>
+            <div class="text"> <img src="imgs/2.jpg" alt="history" id="one">
+                <p> Twenty Pho Seven serves traditional Vietnamese food 24/7. It is vibrant, culture and hip hub to eat, drink and connect. Aside from the authentic aura it has, it also is a touch of modernity in it. This restaurant has been established by three college students from BCIT. </p> 
+                <p> They though that having a pho while doing your web development homework at the middle of the night with your friends would be fun rather than just staying at home. After graduating, the three owners decided to build the pho place they just thought for fun.</p> 
+                <p> Rather than being a typical pho place, they decide to put a little spice it in by making it pub-like. The first branch was first built near their alma matter however it was closed down. Today they have two branches; one in Richmond and one in East Vancouver.</p> 
+            </div>
+        </div>
+        <div id="mission" style="margin-top: -1%;"> 
+            <h2 class="subheading" style="margin-right: 100%;"> MISSION</h2>
+             <div class="text"> <img src="imgs/mission.jpg" alt="mission" id="two">
+                 <p> In Twenty Pho Seven, our mission is served guest authencity and modernity.<br><br>It is a place where they can hang out and chill with their family and friends</p>
+                 <p> In Twenty Pho Seven, we want to provide a space for those students or people that is looking for a modern yet still relaxing environment </p>
+                 <p> In Twenty pho seven, our mission is to support those locals and provide customers with food that is made with love and passion.</p>
+            </div>
+        </div>
+   
+   
+    <div > 
+       <br><br><br><br><br><br><br><br><br><br><br>  
+
+    <p id="Menu" class="heading"> MENU</p>
+        <p > </p>
+        <nav  class="menunav">  
+            <ul> 
+        <li> <a href="appetizers.html" target="place">Pho U |</a></li>
+        <li> <a href="phome.html" target="place">Pho Me |</a></li>
+        <li> <a href="NA.html" target="place">Pho Us |</a></li>
+        <li> <a href="NA.html" target="place"> Pho Them</a> </li>
+            </ul>
+        </nav> 
+       
+   <br>  
+        <iframe name="place" width="960" height="545" src="" scrolling="no"></iframe> 
+        
+    </div>
+    <br>
+     <br>
+    <br>
+    <br>
+     <br>
+    <div>
+        <p id="Reserve" class="heading"> RESERVATION</p>
+        <p class="res"> Call (778) 000-0000 from 11 am - 9 pm daily <br> Reservations required for parties of 6 or more.</p>
+    </div>
+    
+<br>
+    <div> 
+<!-- Trigger/Open The Modal -->
+<button id="myBtn"> Open Form </button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    
+    <p class="reservationformheader"> RESERVATION FORM</p>
+     
+      <form method="get" enctype="text/plain" action="#pagetop">
+
+<div>We would be glad to reserve a table for you at our restaurant!</div>
+          
+<div> <p class="formheader"> Contact Information</p>
+    Name
+    <span style="color: red;"> *</span>
+    <input type="text" id="name" name="name" style="width : 250px;" class="formcontent"/> 
+				
+</div>
+ <div > Phone &nbsp; 
+<input type="text" id="phone" name="phone" style="width : 250px;" class="formcontent"/>
+	</div>
+<div>
+Email&emsp;
+<input type="text" id="email" name="email" style="width : 250px;" class="formcontent"/>
+</div>
+<p class="formheader"> Reservation Details</p>
+<div >Date<span style="color: red;"> *</span>
+<input type="date" id="date" name="date" style="width : 150px;" class="formcontent" />
+  &nbsp; &nbsp;&nbsp; Time<span style="color: red;"> *</span>
+<select id="time" name="time" style="width : 200px;" class="formcontent">
+    <option> Select a time </option>
+    <option> 12:00 AM </option>
+    <option> 1:00 AM </option>
+    <option> 2:00 AM </option>
+    <option> 3:00 AM </option>
+    <option> 4:00 AM </option>
+    <option> 5:00 AM </option>
+    <option> 6:00 AM </option>
+    <option> 7:00 AM </option>
+    <option> 8:00 AM </option>
+    <option> 9:00 AM </option>
+    <option> 10:00 AM </option>
+    <option> 11:00 AM </option>
+    <option> 12:00 NN </option>
+    <option> 1:00 PM </option>
+    <option> 2:00 PM </option>
+    <option> 3:00 PM </option>
+    <option> 4:00 PM </option>
+    <option> 5:00 PM </option>
+    <option> 6:00 PM </option>
+    <option> 7:00 PM </option>
+    <option> 8:00 PM </option>
+    <option> 9:00 PM </option>
+    <option> 10:00 PM </option>
+    <option> 11:00 PM </option>
+    </select>
+<br> <br>Number of Attendees
+<select id="number" name="number" style="width : 50px;" class="formcontent">
+    <option>#</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+<option>10</option>
+<option>10+ (Specify in Comments)</option>
+</select>
+</div>
+<div><p class="formheader"> Comments / Additional Requests</p> 
+<textarea name="comments" style="width : 550px;" rows="6" class="formcontent" placeholder="Enter Request Here"></textarea>
+</div>
+<div >
+   
+    <button type="submit" value="Submit" class="submitbutton" onclick="return confirm ('Reservation recieved')">SUBMIT</button>
+    
+    <img src="imgs/form.png" alt="formpic" class="formpic">
+          </div>
+<div>
+
+</div>
+</form> 
+  </div>
+
+</div>
+        </div>
+
+   
+    <br>
+     <br>
+    <br>
+    <br>
+    <br>
+    <br><br>
+     <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+     <br>
+    <br>
+    <br>
+    <br>
+    <p class="end"> Created by Eveyen Sobremisana <br> Design Fundamentals 	&#169; 2017</p>
+    <br>
+    <br>
+     <br>
+    <br>
+    <br>
+     <br>
+    <br>
+    <br>
+    
+
+ </div>
+      
+        <div class="footer">
+         <br>
+            <div> <img src="imgs/location-pin-map-marker-pointer-locator-31b71f0c20c41e4d-256x256.png" alt="location" id="loc"> </div>
+            <div class="foot">  <span class="black">Richmond</span> 
+                <br> 6760-6574 No 3 Rd 
+                <br>&nbsp;BC V69 </div> 
+            
+            <div class="foot"> <span class="black"> Vancouver</span> 
+                <br> 2794 E 49th Avenue <br>&nbsp;V5S 1K5</div>
+            
+            <div> <img src="imgs/hours.png" alt="hours" id="clock"></div>
+            <div class="foot"> <span class="black"> &nbsp;Open 24/7 </span> </div>
+            <div class="foot" style="margin-top: 20px; margin-left: 145px;"> <span class="black"> @Twentyphoseven</span> </div>
+            
+            <div id="icon"> <a href="www.facebook.com/twentyphoseven"> <img src="imgs/footer1.png" alt="foot" class="icon"></a> 
+                <a href="www.snapchat.com/twentyphoseven"> <img src="imgs/footer2.png" alt="foot" class="icon"></a> <br>
+                <a href="www.twitter.com/twentyphoseven"> <img src="imgs/footer3.png" alt="foot" class="icon"></a>
+                <a href="www.instagram.com/twentyphoseven"> <img src="imgs/footer4.png" alt="foot" class="icon"></a>  </div>
+     </div>
+            </div>
+    
+         
+         
+         
+         
+         
+         
+         
+    <script type="text/javascript">
+        /*SLIDESHOW*/
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+} /*FORM POP UP*/
+        // Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+/*FORM*/
+function validateForm() {
+if (isEmpty(document.getElementById('data_3').value.trim())) {
+alert('Name is required!');
+return false;
+}
+if (!validateEmail(document.getElementById('data_10').value.trim())) {
+alert('Email must be a valid email address!');
+return false;
+}
+if (isEmpty(document.getElementById('data_11').value.trim())) {
+alert('Date is required!');
+return false;
+}
+if (isEmpty(document.getElementById('data_7').value.trim())) {
+alert('Time is required!');
+return false;
+}
+return true;
+}
+function isEmpty(str) { return (str.length === 0 || !str.trim()); }
+function validateEmail(email) {
+var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,15}(?:\.[a-z]{2})?)$/i;
+return isEmpty(email) || re.test(email);
+}
+     
+</script>
+    </body>
+
+</html>
